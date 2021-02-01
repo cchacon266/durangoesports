@@ -39,6 +39,24 @@
   text-align: center;
 }
 
+.wrapper-card1{
+  background-color: #fff;
+  border: 2px;
+  border-radius: 20px;
+ /* width: auto; */
+  height: 95%;
+  padding: 10px;
+  margin: 1px;
+  transition: all 0.25s;
+  box-shadow: 0 4px 8px 0 rgba(219, 12, 12, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+ 
+  text-align: center;
+}
+
+
+
+
 /* .wrapper-card img{
   width: 360px;
   height: 220px;
@@ -75,15 +93,10 @@
 #cont2 {
   
   margin: 0 auto;
-  font-size: 20px;
-  
+  font-size: 20px; 
   padding: 50px 0;
 }
-#logodu {
-  width: auto;
-  text-align: center; 
-  
-}
+
 
 
 .wrapper-card:hover{
@@ -91,11 +104,20 @@
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
+.logodu{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 
 body {
   font-family: sans-serif;
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+
 }
 
 
